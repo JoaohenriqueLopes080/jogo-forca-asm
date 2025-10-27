@@ -1,16 +1,36 @@
-Como Compilar:
+# 🎮 Jogo da Forca (Hangman Game) - Instruções
 
-Para que o arquivo de dados seja compilado corretamente, o software MARS deve ser executado de dentro da pasta jogodaforca.
-No software MARS, abra o arquivo t1.asm
-Na aba de opções no canto superior esquerdo da tela, clique em Settings e habilite a opção "Assemble all files in directory"
-Após isso, pode compilar normalmente.
+Este guia detalha os passos para compilar e executar o jogo da forca usando o software MARS.
 
-Como Jogar:
+## 🛠️ Como Compilar
 
-Após a compilação, deve abrir a ferramenta Bitmap Display do software MARS, colocar : 
-          unit width: 4
-          unit height: 4
-          best adress for display : 0x10000000 (Global Data)
-e clicar em "Connect to MIPS".
+Para garantir a compilação correta do arquivo de dados, siga as instruções abaixo:
 
-Então, pelo terminal, deve chutar as letras, que devem ser inseridas EM MAIÚSCULO para serem identificadas corretamente.
+1.  **Localização:** O software **MARS** deve ser executado *de dentro* da pasta `jogodaforca`.
+2.  **Abrir Arquivo:** No software MARS, abra o arquivo principal:
+    * `t1.asm`
+3.  **Configurações:** Acesse as opções no canto superior esquerdo da tela:
+    * Clique em **Settings**.
+    * **Habilite** a opção: **"Assemble all files in directory"**.
+4.  **Compilação:** Após habilitar a opção, você pode compilar o código normalmente.
+
+## 🕹️ Como Jogar
+
+Depois de compilar o código, configure o display e interaja com o jogo pelo terminal:
+
+### 🖥️ Configuração do Bitmap Display
+
+1.  Abra a ferramenta **Bitmap Display** do software MARS.
+2.  Configure os seguintes parâmetros:
+    * **Unit Width:** `4`
+    * **Unit Height:** `4`
+    * **Base Address for Display:** `0x10000000` (Global Data)
+3.  Clique em **"Connect to MIPS"**.
+
+### ⌨️ Interação no Terminal
+
+1.  O jogo será executado.
+2.  Pelo terminal, você deve chutar as letras.
+3.  **Atenção:** As letras devem ser inseridas **EM MAIÚSCULO** para serem identificadas corretamente pelo programa.
+
+***
