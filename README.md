@@ -1,7 +1,4 @@
-# 🎮 Jogo da Forca (Hangman Game) - Instruções
-
-Este guia detalha os passos para compilar e executar o jogo da forca usando o software MARS.
-
+# Jogo da Forca 
 ## 🛠️ Como Compilar
 
 Para garantir a compilação correta do arquivo de dados, siga as instruções abaixo:
